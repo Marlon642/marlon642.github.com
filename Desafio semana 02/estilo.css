@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    
+}
+
+header {
+    background-color: white;
+    color: white;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 17%;
+}
+
+#menu {
+    color: black;
+    float: right;
+    list-style: none;
+    margin-top: -1%;
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    
+    float: right;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover {
+    background-color: #F24949;
+    padding: 10.5px;
+}
+
+
+#titulo {
+    color: black;
+    padding-top: 10%;
+    font-size: 30px;
+}
+#subtitulo {
+    color: black;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+#fundo {
+    background: url(img/back.jpg);
+    background-size: 1000px;
+    height: 605px;
+    text-align: center;
+    padding: 30px;
+    background-repeat: no-repeat;
+}
+#acao {
+    color: black;
+    border: 2px black solid;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.icone {
+    width: 60px;
+}
+#projeto {
+    padding: 20px;
+}
+#selecao {
+    padding: 20px;
+    background-color: lightsteelblue;
+}
+#acao:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: 0.3s
+    ease-in;
+}
+.imgco {
+    width: 10%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+.colunaquatro {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    font-size: 15px;
+}
+
+
+.espacotopo {
+    padding-top: 1%;
+}
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+section {
+    float: left;
+}
+
+.sug {
+    width: 80%;
+}
+.tres {
+    width: 29%;
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    
+}
+#sugestoes {
+    background: url(img/back2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    font-size: 20px;
+}
+footer {
+    background-color: #308C36;
+    float: left;
+    width: 100%;
+    color: black;
+
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+#import {
+    font-size: 11px;
+}
+
+
